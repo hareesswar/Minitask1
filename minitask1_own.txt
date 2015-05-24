@@ -1,0 +1,28 @@
+1.Web dev is the art of creating web pages, web sites and web applications using various markup and scripting languages and hosting them in servers using server side languages.
+2.Browser is the software application that enables the user to interact with the web. It displays the requested web page from the server and also retrieves data.
+3.Working of browser: When a link is clicked or a url is entered the browser requests the web server for the required web pages and the server locates the required page and sends it to the browser which displays it.
+4.Web server is a computer that hosts web pages and on requests from browser, sends the web pages to the browser to display.
+5.Working of server: A web server runs continuously and waits for requests from web browser for web pages. And when it receives a request it locates the requested web page and sends it back to the browser.
+6.Role of CPU in running  the browser engine: Running of the browser engine mainly deals with the interaction of browser and server. CPU helps in this interaction by transferring information.
+7.WWW: World Wide Web. It is a network of all the servers. And acts like the super server.
+8.HTML: hypertext markup language. It is used to create web pages. It gives the content and structure of a web page.
+9.CSS: cascading style sheets. It is used to make the web page look more appealing by providing options to format  each and every element of the web page.
+10.Javascript: It basically enables interaction and allows the browser to interact with the user with various functions.
+So for a web page HTML gives the content, CSS gives style and javascript makes it interactive.
+11.Domain: Domain name is the address that is easily rememberable. 
+12.Internet: It is the network of networks.
+13.Internet pack: The package options that telecom companies provide to access internet specifically.
+14.web:  <unsure>
+15.URL: Uniform Resource Locator. URL helps in identifying web pages.
+16.URI:Uniform Resource Identifier.
+17.What happens when you type into browser’s address bar? 
+The browser sends the address entered to the server and fetches the required page.
+18. Wi-Fi: Wireless Fidelity. Enables internet sharing and wireless data transmission.
+19. Why most of the url starts with http://? 
+Because most of the web pages have hypertexts or links.
+20.What’s http, ftp, ssl, tsl?
+http-HyperText Transfer Protocol
+ftp-File Transfer protocol
+ssl, tsl- <unsure>
+These are rules that are followed in the transfer of information between the browser and the server. 
+
