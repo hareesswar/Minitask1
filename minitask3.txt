@@ -1,0 +1,45 @@
+1.Most of the web browsers are provided with an inbuilt error console or developer tools like javascript console. Using the console gives you the ability to log diagnostic information to help debug your webpage or web application. Console.log() can be used to write into the console which takes parameters. Basically it helps in troubleshooting your webpage. You can also inspect,access and monitor the DOM elements. It also helps in making your webpage more efficient as you can the timeline and its functions to find the loop timings etc. It’s output can also be styled using CSS.
+
+2.var a = document.getElementsByTagName('img');                                                                          for(var i in a) a[i].src="https://goo.gl/P0Xgv7";                                                                          var a is an array that has the source of all the images in the webpage and then using a for loop we change the source to that of delta logo. THIS WORKED AND IT WAS AMAZING TO SEE ALL THE IMAGES IN THE PAGE TURN INTO DELTA LOGO.
+
+3.<kbd> tag is an inline element and it is a phrase tag gives the appearance of keyboard tag. But it is deprecated now i.e. it is no longer a recommended standard as it’s effect can be brought about in better ways like using CSS.                                                                                                                                        <marquee> tag is used for scrolling piece of text or image displayed either horizontally across or vertically down your web site page depending on the attributes. It takes various attributes like behavior,direction,bgcolor,direction,height,loop,scrolldelay,scrollamount.  
+
+<blink> tag is used to blink the string enclosed within the tags. But it is obsolete and not supported by many browsers now. There is a not so viable solution to this using JS and CSS(code is available in wikipedia).                           
+Oneerror- The onerror event is triggered if an error occurs while loading an external file like an image.
+
+4.
+Class:
+Advantage:
+  1.Can be used on multiple elements.
+  2.Can be used when a group of element needs to be styled.
+  3.Easy it is to add and remove classes to page elements using built-in functions in jquery, but there is no such     function for IDs.
+Disadvantage:
+  1.It does not have hash(#) values like ID and cannot be located in a webpage.
+
+ID:
+Advantage:
+  1.It has hash(#) values and can be located in webpage. for ex., if the url contains #<id name> onloading the webpage     directly scrolls to that element.
+Disadvantage:
+  2.It has to be unique and cannot be assigned to more than one element and if done so becomes a problem while using DOM.
+
+5.
+When == is used with two operands say, a==b, there is an implicit type cast of b to a, and then equality is eavaluated.   
+a) alert(''== '0'); // returns false
+ here both are of same type i.e. string and an empty string is not equal to a string with value 0.
+b) alert(0 == ''); // returns true
+ here operand b is an empty string and a is number. When used with ==, b is typecasted to number and empty strings are assigned with number 0 and thus the condition evaluates to true. 0=='' --> 0==number('') -->0==0
+c)alert(0=='0'); //true
+ 0=='0' becomes to 0==number('0') which is 0==0 and is evaluated true.
+
+6. The return statement in a program shift the control from the current block of code to the next executable statement following the function calling statement in the calling function. The return statement can also be used to return a value after any computation if present, to the calling function and the returned value can be used in the calling function.
+
+7.
+A program is functional if:
+1) all the data is immutable i.e. it's value should never change.Instead you would create a new data structure rather than modifying its contents. For example, if you need to manipulate some data in an array, then you would make a new array with the updated values, rather than revise the original array.
+2)it is stateless, i.e. they should perform every task as if for the first time, with no knowledge of what may or may not have happened earlier in the program’s execution.
+3)all functions have atleast have one argument and must return data or other function and also functions can be passed as arguments.
+4)loops are not used
+
+Javascript is not entirely a functional language as it does not support immutability and is not stateless. It is more of object oriented programming.
+
+8.
