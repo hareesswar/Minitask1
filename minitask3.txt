@@ -43,3 +43,6 @@ A program is functional if:
 Javascript is not entirely a functional language as it does not support immutability and is not stateless. It is more of object oriented programming.
 
 8.
+This is because javascript does not support block scope unlike c/c++ where the output would have been 5.But JS supports function scope.
+
+9.
