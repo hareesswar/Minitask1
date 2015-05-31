@@ -1,0 +1,29 @@
+MINITASK 2
+
+1.complexities you faced in this task
+
+The problem that I faced in this task was with generating colour and rgb() function. I initialised variables x,y and z with random values generated from the Math.random() and used rgb(x,y,z) to fill my box with random colours but it didn't work and when I asked my mentor he gave a solution and asked me to use "rgb("+x+","+y+","+z+")" instead and it actually worked. But didn't give the logic and asked me to research. 
+And what I learnt was that unlike CSS javascript doesn't have predefined rgb() function.So to inject style to an element by javascript we have to utilise rgb() function of CSS. As rgb( , and ) are constant values to be added as the CSS, we just need to combine them to the variables that carry/supply RGB value to the CSS function.
+so we use document.getElementById("element").style.color = "rgb(" +x+ "," +y+ "," +z+ ")";
+where  rgb( , and ) are strings enclosed within quotes and are concatenated with variables x,y and z with +
+
+2.what all concepts you learnt
+->HTML structures and elements
+->CSS styles
+->Canvas
+->event handlers in JS like onclick() and alert()
+->Math.random() and Math.floor() functions
+apart from programming certain that i wouldn't have learnt if not for this induction
+->jsfiddle- initially i thought we would have to make submission via mail this one looked really cool.
+->IRC-this was also something knew earlier but never used.
+->github-well sharing this very file through that
+
+3.Experience with your Mentor, Review and advance task.
+
+Experience with mentor- In the first place he made me feel comfortable with group and the tasks even after me joining the group a few days later as I filled the induction form with my fathers mobile no. by mistake instead of mine as both start the same. And for the rgb() doubt he gave a solution to move ahead with the task but allowed me to research and find the logic. Even during the first IRC session when I was new to it he helped with where to type when i wasn't participating for a long time. Also he minitasks and questions makes me do a lot of research.
+
+Review-It was nice and some questions were very interesting and also had flexible timings.
+
+Advance task- I could complete the task properly as my box couldn't expand in all proportions. After I did manage to complete it with some random values of origin and trial and error method. 
+
+ 
