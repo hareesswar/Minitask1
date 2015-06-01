@@ -14,8 +14,8 @@ where  rgb( , and ) are strings enclosed within quotes and are concatenated with
 ->event handlers in JS like onclick() and alert()
 ->Math.random() and Math.floor() functions
 apart from programming certain that i wouldn't have learnt if not for this induction
-->jsfiddle- initially i thought we would have to make submission via mail this one looked really cool.
-->IRC-this was also something knew earlier but never used.
+->jsfiddle- initially i thought we would have to make submission via mail and this one looked really cool.
+->IRC-this was also something i knew earlier but never used.
 ->github-well sharing this very file through that
 
 3.Experience with your Mentor, Review and advance task.
@@ -24,6 +24,6 @@ Experience with mentor- In the first place he made me feel comfortable with grou
 
 Review-It was nice and some questions were very interesting and also had flexible timings.
 
-Advance task- I could complete the task properly as my box couldn't expand in all proportions. After I did manage to complete it with some random values of origin and trial and error method. 
+Advance task- I couldn't complete the task properly as my box couldn't expand in all proportions. After that I did manage to complete it with some random values of origin and trial and error method and was not really optimised. 
 
  
