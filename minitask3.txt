@@ -46,3 +46,5 @@ Javascript is not entirely a functional language as it does not support immutabi
 This is because javascript does not support block scope unlike c/c++ where the output would have been 5.But JS supports function scope.
 
 9.
+
+10.http://jsfiddle.net/tinu_hareesswar_r/hz2d4r3t/
