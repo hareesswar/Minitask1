@@ -1,6 +1,6 @@
 1.Most of the web browsers are provided with an inbuilt error console or developer tools like javascript console. Using the console gives you the ability to log diagnostic information to help debug your webpage or web application. Console.log() can be used to write into the console which takes parameters. Basically it helps in troubleshooting your webpage. You can also inspect,access and monitor the DOM elements. It also helps in making your webpage more efficient as you can the timeline and its functions to find the loop timings etc. It’s output can also be styled using CSS.
 
-2.var a = document.getElementsByTagName('img');                                                                          for(var i in a) a[i].src="https://goo.gl/P0Xgv7";                                                                          var a is an array that has the source of all the images in the webpage and then using a for loop we change the source to that of delta logo. THIS WORKED AND IT WAS AMAZING TO SEE ALL THE IMAGES IN THE PAGE TURN INTO DELTA LOGO.
+2.var a = document.getElementsByTagName('img'); for(var i in a) a[i].src="https://goo.gl/P0Xgv7";                                                                          var a is an array that has the source of all the images in the webpage and then using a for loop we change the source to that of delta logo. THIS WORKED AND IT WAS AMAZING TO SEE ALL THE IMAGES IN THE PAGE TURN INTO DELTA LOGO.
 
 3.<kbd> tag is an inline element and it is a phrase tag gives the appearance of keyboard tag. But it is deprecated now i.e. it is no longer a recommended standard as it’s effect can be brought about in better ways like using CSS.                                                                                                                                        <marquee> tag is used for scrolling piece of text or image displayed either horizontally across or vertically down your web site page depending on the attributes. It takes various attributes like behavior,direction,bgcolor,direction,height,loop,scrolldelay,scrollamount.  
 
@@ -49,3 +49,30 @@ This is because javascript does not support block scope unlike c/c++ where the o
 The browser cache is a temporary storage location on your computer for files downloaded by your browser to display websites.Files that are cached include html file,css file, js script and images.When you revisit a website, the browser checks which content was updated in the meantime and only downloads updated files or what is not already stored in the cache. This reduces bandwidth usage on both the user and server side and allows the page to load faster. Hence, the cache is especially useful when you have a slow or limited Internet connection.
 
 10.http://jsfiddle.net/tinu_hareesswar_r/hz2d4r3t/
+
+11.
+JavaScript is a class-free, object-oriented language, and as such, it uses prototypal inheritance instead of classical inheritance.
+In traditional OOP, an object is an instance of a class, but in JavaScript, it takes on a specialized meaning because an Object acts as the definition of an object just like a class does.
+An object itself can have various properties,attributes and methods(functions).So it is something that is  not primitive.
+So there are no classes but has objects and objects can inherit from another object.
+
+A prototype is an internal object from which other objects inherit properties. Its main purpose is to allow multiple instances of an object to share a common property. Thus, object properties which are defined using the prototype object are inherited by all instances which reference it.
+
+An object can also be created using constructor:example:
+function bar(height,name,colour)
+{
+ this.name=name;
+ this.value=height;
+ this.height=height;
+ this.colour=colour;
+}
+//let the below be exectuted on click
+{
+var bars=[];
+var obj = new bar(inp,n,colours[n-1]);
+bars.push(obj);
+}
+
+The function bar is a constructor and everytime on a click it is called to create a new object and push into an array called bars.
+
+Other OOP programming languages like C++ supports class inheritance where the classes can inherit properties from parent classes based on the access specifier such as private,public or protected. 
