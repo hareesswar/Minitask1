@@ -46,5 +46,6 @@ Javascript is not entirely a functional language as it does not support immutabi
 This is because javascript does not support block scope unlike c/c++ where the output would have been 5.But JS supports function scope.
 
 9.
+The browser cache is a temporary storage location on your computer for files downloaded by your browser to display websites.Files that are cached include html file,css file, js script and images.When you revisit a website, the browser checks which content was updated in the meantime and only downloads updated files or what is not already stored in the cache. This reduces bandwidth usage on both the user and server side and allows the page to load faster. Hence, the cache is especially useful when you have a slow or limited Internet connection.
 
 10.http://jsfiddle.net/tinu_hareesswar_r/hz2d4r3t/
