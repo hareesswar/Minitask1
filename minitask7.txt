@@ -1,0 +1,25 @@
+1.
+A Web server is a system that delivers content or services to end users over the Internet. A Web server consists of a physical server, server operating system (OS) and software used to facilitate HTTP communication. Every computer on the Internet that contains a Web site must have a Web server program. 
+
+2.
+ localhost is the name used to describe the local computer address.The IP address of the localhost is given as 127.0.0.1.It enables the computer to access the computer's own network services via its loopback network interface. 
+
+3.
+the IP address of the localhost is as 127.0.0.1.This is considered a "loopback" address because the information sent to it is routed back to the local machine.  The loopback interface has no hardware associated with it, and it is not physically connected to a network.
+
+4.
+No clear idea on why this big range. The subnet mask of 127 is 255.0.0. So the entire range is masked and reverts back to local host.
+
+5.
+XAMPP is a package consisting of Apache HTTP Server, MySQL database, and interpreters for scripts written in the PHP and Perl programming languages.XAMPP stands for Cross-Platform (X), Apache (A), MySQL (M), PHP (P) and Perl (P). 
+
+phpmyadmin is a tool used to create and manage databases.
+
+6.
+The server scripts are not visible in web page source beacuse they are executed at the server end and only the HTML page rendered by it is returned to the browser.
+
+7.
+These are the root server directory folders.It is the location where files to be accessed by the server are stored.
+
+8.
+In a network of computers every computer is a client or a server. Client sends a request to the server and the server locates,executes scripts and returns the webpage
