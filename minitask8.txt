@@ -1,5 +1,5 @@
 1.
-Dynamic programming is when a large problem is broken down into smaller problems.And the value o feach of the subproblem is stored and when this subproblem is encountered next time we reuse the value instead of calculating it afresh.So,by solving the induvidual smaller problems,the solution of the larger problem is obtained.It is just like recursion but without repeatition i.e. the subproblems are computed only once as their values are stored.
+Dynamic programming is when a large problem is broken down into smaller problems.And the value of each of the subproblem is stored and when this subproblem is encountered next time we reuse the value instead of calculating it afresh.So,by solving the induvidual smaller problems,the solution of the larger problem is obtained.It is just like recursion but without repeatition i.e. the subproblems are computed only once as their values are stored.
 For example, we want to compute fibonacci by,
 f(n) = f(n-1) + f(n-2), if n > 2
 f(2) = 1, f(1) = 0
@@ -37,7 +37,7 @@ So n/2^x=1
    x=log(n) base 2
    
 So from this, we've determined that the maximum number of steps you need to search a space of n elements is log(n) base2.
-Since log(n) base 2 only differs from log(n) base 10 by a constant factor, this means that the binary search is in       O(log(n)).
+Since log(n) base 2 only differs from log(n) base 10 by a constant factor, this means that the binary search is in O(log(n)).
 
 4.
 
