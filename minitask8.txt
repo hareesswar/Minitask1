@@ -1,0 +1,97 @@
+1.
+Dynamic programming is when a large problem is broken down into smaller problems.And the value o feach of the subproblem is stored and when this subproblem is encountered next time we reuse the value instead of calculating it afresh.So,by solving the induvidual smaller problems,the solution of the larger problem is obtained.It is just like recursion but without repeatition i.e. the subproblems are computed only once as their values are stored.
+For example, we want to compute fibonacci by,
+f(n) = f(n-1) + f(n-2), if n > 2
+f(2) = 1, f(1) = 0
+Thus to compute, f(6) we break it to f(5)+f(4) and to compute f(5) we break it into f(4)+f(3) and so on. And in the second term of f(6) break down we don't compute f(4) as it is calculated while computing f(5).
+
+2.
+->Time complexity is a function which describes the amount of time an algorithm takes in terms of the amount of input to the algorithm.
+->Space complexity is a function which describes the amount of memory (space) an algorithm takes in terms of the amount of input to the algorithm.
+->They are not exact measurements in the sense that it tells you "this algorithm takes this many seconds to complete" or "you require this much GB of RAM", but more showing a trend how these parameters change with respect to the input size.
+->Most commonly we use the big O notation to express these.
+->When expressed this way, the time complexity is said to be described asymptotically, i.e., as the input size goes to infinity.
+->Big O is often used to describe the worst-case of an algorithm by taking the highest order of a polynomial function and ignoring all the constants value since they aren’t too influential for sufficiently large input.
+
+Example:
+//function to compute the sum of n terms of an array
+int sum(int a[],int n)
+{
+ int s=0;
+ for(int i=0;i<n;i++)
+ {
+  s=s+a[i];
+ }
+ return s;
+}
+The total number of steps involved=5n+3 which is the time complexity function.Removing smaller terms and constant coefficient for higher input values in big o notation we have O(n).
+The space complexity of the above function is O(1) as the space required to run the program does not alter with the input.
+
+3.
+In binary search for each iteration the array is split into half.This is accomplished by dividing the size of the search space or array, n, by 2 repeatedly until you get to 1.
+So n/2^x=1 
+   n=2^x
+   logn=log(2^x)
+   logn=xlog2
+   x=log(n)/log2
+   x=log(n) base 2
+   
+So from this, we've determined that the maximum number of steps you need to search a space of n elements is log(n) base2.
+Since log(n) base 2 only differs from log(n) base 10 by a constant factor, this means that the binary search is in       O(log(n)).
+
+6.
+
+5.
+->x86 is used for a 32-bit operating system and x64 is used for a 64-bit operating system.
+->x86 machines supports 16, 32 or 64 registry files depending on the architecture so 32bit and 64bit computers can run it whereas x64 machines supports 64 registry files and 64bit computers alone can run it.
+->In X86 machine the maximum capacity of RAM is 4GB and the amount that a RAM can address in X64  is 8TB, and hence is more efficient in multi-tasking.
+
+6.
+Time complexity= O(log(n))
+#include <iostream.h>
+void multiply(int F[2][2], int M[2][2]);
+void power(int F[2][2], int n);
+int fib(int n)
+{
+  int F[2][2] = {{1,1},{1,0}};
+  if (n == 0)
+    return 0;
+  power(F, n-1);
+  return F[0][0];
+}
+void power(int F[2][2], int n)
+{
+  if( n == 0 || n == 1)
+      return;
+  int M[2][2] = {{1,1},{1,0}};
+  power(F, n/2);
+  multiply(F, F);
+  if (n%2 != 0)
+     multiply(F, M);
+}
+void multiply(int F[2][2], int M[2][2])
+{
+  int x =  F[0][0]*M[0][0] + F[0][1]*M[1][0];
+  int y =  F[0][0]*M[0][1] + F[0][1]*M[1][1];
+  int z =  F[1][0]*M[0][0] + F[1][1]*M[1][0];
+  int w =  F[1][0]*M[0][1] + F[1][1]*M[1][1];
+ 
+  F[0][0] = x;
+  F[0][1] = y;
+  F[1][0] = z;
+  F[1][1] = w;
+}
+int main()
+{
+  int n;
+  cin>>n;
+  cout<<fib(n);
+  return 0;
+} 
+
+
+
+ 
+
+
+
