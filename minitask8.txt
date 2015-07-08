@@ -39,7 +39,7 @@ So n/2^x=1
 So from this, we've determined that the maximum number of steps you need to search a space of n elements is log(n) base2.
 Since log(n) base 2 only differs from log(n) base 10 by a constant factor, this means that the binary search is in       O(log(n)).
 
-6.
+4.
 
 5.
 ->x86 is used for a 32-bit operating system and x64 is used for a 64-bit operating system.
