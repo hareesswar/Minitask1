@@ -1,0 +1,16 @@
+1.
+http://jsfiddle.net/tinu_hareesswar_r/9n34ut2t/
+
+2.
+a.
+version of javascript:
+chrome://version/  javascript:V8 4.3.61.30
+
+b.
+->The chrome omnibox is just an address bar, but with a lot of additional features.
+->chrome://omnibox results in omnibox debug page and when I enter my name in it, a list of previous sites that have visited using that username, and few search options are displayed.
+->It actually predicts the results for an input that would be suggested if you type that input in the chrome omnibox.
+->This result is based on the browser's search,shorcuts,bookmarks and history features.
+
+3.
+http://jsfiddle.net/kbLmznq3/
