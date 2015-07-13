@@ -1,5 +1,5 @@
 1.
-Dynamic programming is when a large problem is broken down into smaller problems.And the value o feach of the subproblem is stored and when this subproblem is encountered next time we reuse the value instead of calculating it afresh.So,by solving the induvidual smaller problems,the solution of the larger problem is obtained.It is just like recursion but without repeatition i.e. the subproblems are computed only once as their values are stored.
+Dynamic programming is when a large problem is broken down into smaller problems.And the value of each of the subproblem is stored and when this subproblem is encountered next time we reuse the value instead of calculating it afresh.So,by solving the induvidual smaller problems,the solution of the larger problem is obtained.It is just like recursion but without repeatition i.e. the subproblems are computed only once as their values are stored.
 For example, we want to compute fibonacci by,
 f(n) = f(n-1) + f(n-2), if n > 2
 f(2) = 1, f(1) = 0
@@ -11,7 +11,7 @@ Thus to compute, f(6) we break it to f(5)+f(4) and to compute f(5) we break it i
 ->They are not exact measurements in the sense that it tells you "this algorithm takes this many seconds to complete" or "you require this much GB of RAM", but more showing a trend how these parameters change with respect to the input size.
 ->Most commonly we use the big O notation to express these.
 ->When expressed this way, the time complexity is said to be described asymptotically, i.e., as the input size goes to infinity.
-->Big O is often used to describe the worst-case of an algorithm by taking the highest order of a polynomial function and ignoring all the constants value since they aren’t too influential for sufficiently large input.
+->Big O is often used to describe the worst-case of an algorithm by taking the highest order of a polynomial function and ignoring all the constants value since they arenâ€™t too influential for sufficiently large input.
 
 Example:
 //function to compute the sum of n terms of an array
@@ -37,7 +37,7 @@ So n/2^x=1
    x=log(n) base 2
    
 So from this, we've determined that the maximum number of steps you need to search a space of n elements is log(n) base2.
-Since log(n) base 2 only differs from log(n) base 10 by a constant factor, this means that the binary search is in       O(log(n)).
+Since log(n) base 2 only differs from log(n) base 10 by a constant factor, this means that the binary search is in O(log(n)).
 
 4.
 
